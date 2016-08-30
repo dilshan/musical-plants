@@ -10,6 +10,33 @@ PC application of this project is developed using <I>Microsoft Visual C++ 2015</
 
 PIC18F4550 firmware is developed using <I>MikroElektronika's mikroC PRO for PIC</I> compiler. Recommended MCU configuration register values for this firmware is listed in below:
 
+* PLL prescaler : /5 (20 MHz)
+* System clock postscaler : /2 (/1)
+* USB clock : 96 MHz PLL /2
+* Osciliator : HSPLL
+* Fail safe clock monitor : OFF
+* Internal external switching : OFF
+* Power-up timer : OFF
+* Brown-out reset : OFF
+* Brown-out reset voltage : 2.0V
+* USB voltage regulator : ON
+* Watchdog timer : OFF
+* Watchdog timer postscaler : 1:32768
+* CCP2 multiplexed with : RC1
+* PortB reset state : Digital
+* Low power timer 1 osc : High power
+* MCLR pin : Reset
+* Stack overflow / underflow : ON
+* In-circuit port : OFF
+* Enhanced CPU : OFF
+* Boot block : OPEN
+* Code lock : OPEN
+* Data EEPROM : OPEN
+* Table write boot block : OPEN
+* Table write code : OPEN
+* Table read boot block : OPEN
+* Table read code : OPEN
+
 All the audio clips used in this project are produced by using xylophone and released under the terms of [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0) (CC BY-SA 4.0).
 
 This musical plants project is an open source hardware project and all the source codes and compiled binaries are released under the [MIT Licenses](https://opensource.org/licenses/MIT).
