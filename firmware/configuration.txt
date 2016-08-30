@@ -1,0 +1,29 @@
+PIC18F4550
+==========
+
+  PLL prescaler :		/5 (20 MHz)
+  System clock postscaler :	/2 (/1)
+  USB clock :			96 MHz PLL /2
+  Osciliator :			HSPLL
+  Fail safe clock monitor :	OFF
+  Internal external switching :	OFF
+  Power-up timer : 		OFF
+  Brown-out reset :		OFF
+  Brown-out reset voltage : 	2.0V
+  USB voltage regulator : 	ON
+  Watchdog timer :		OFF
+  Watchdog timer postscaler : 	1:32768
+  CCP2 multiplexed with : 	RC1
+  PortB reset state : 		Digital
+  Low power timer 1 osc : 	High power
+  MCLR pin :			Reset
+  Stack overflow / underflow : 	ON
+  In-circuit port : 		OFF
+  Enhanced CPU : 		OFF
+  Boot block : 			OPEN
+  Code lock : 			OPEN
+  Data EEPROM : 		OPEN
+  Table write boot block : 	OPEN
+  Table write code : 		OPEN
+  Table read boot block : 	OPEN
+  Table read code : 		OPEN
